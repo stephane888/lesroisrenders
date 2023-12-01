@@ -1,0 +1,17 @@
+<?php
+
+/**
+ *
+ * @file
+ * Primary module hooks for lesroisrenders module.
+ */
+function hook_theme($existing, $type, $theme, $path) {
+  return [
+    'lesroisrenders_default_page' => [
+      'variables' => [
+        'forums' => NULL,
+        'topics' => NULL
+      ]
+    ]
+  ];
+}

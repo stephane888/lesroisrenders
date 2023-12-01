@@ -1,0 +1,8 @@
+lesroisrenders.example:
+  path: '/lesroisrenders/isolation-thermique-des-murs-devis-et-prix-des-travaux'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\lesroisrenders\Controller\LesroisdelarenoController::build'
+  requirements:
+    _permission: 'access content'
+
